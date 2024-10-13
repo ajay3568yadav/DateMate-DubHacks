@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need access to speech recognition to provide voice assistant features during virtual dates.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone to process voice input.</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSAllowsLocalNetworking</key>
+    <true/>
+	<key>API_KEY</key>
+	<string>AIzaSyDBmy4Xs-jWzDRNcegtWWjFGohnQ4T0wLE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>889617623537</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ayadav55.DateMate</string>
+	<key>PROJECT_ID</key>
+	<string>date-mate-dubhacks-91552</string>
+	<key>STORAGE_BUCKET</key>
+	<string>date-mate-dubhacks-91552.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:889617623537:ios:60fd56be2c301e215a7c50</string>
+</dict>
+</plist>
