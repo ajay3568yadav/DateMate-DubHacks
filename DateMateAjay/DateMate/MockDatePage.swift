@@ -138,7 +138,7 @@ struct MockDatePage: View {
     @StateObject private var speechRecognizer = SpeechRecognizer()
     @StateObject private var perplexityService = PerplexityService()
     @StateObject private var elevenLabsService = ElevenLabsService(
-        apiKey: "sk_ac16c7513d52c1343ffeada9400574a0d56f2787ad1d2a47",
+        apiKey: "",
         voiceID: "jsCqWAovK2LkecY7zXl4"
     )
     @State private var messages: [Message] = []
