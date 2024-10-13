@@ -2,7 +2,7 @@ import Foundation
 
 class PerplexityService: ObservableObject {
     @Published var aiResponse = ""
-    private let apiKey = "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"
+    private let apiKey = ""
     private let apiUrl = "https://api.perplexity.ai/chat/completions"
     
     func getResponse(for userInput: String) {
